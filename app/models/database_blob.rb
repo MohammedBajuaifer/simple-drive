@@ -1,0 +1,2 @@
+class DatabaseBlob < ApplicationRecord
+end
