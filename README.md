@@ -15,10 +15,8 @@ POST http://127.0.0.1:3000/api/blobs/
 Content-Type: application/json
 
 {
-    "blob": {
         "data": "<base64_encoded_data>",
         "storage_option": "<storage_option>"
-    }
 }
 ```
 
@@ -32,10 +30,8 @@ POST http://127.0.0.1:3000/api/blobs/
 Content-Type: application/json
 
 {
-    "blob": {
         "data": "SGVsbG8gU2ltcGxlIFN0b3JhZ2UgV29ybGQh",
         "storage_option": "local"
-    }
 }
 ```
 
